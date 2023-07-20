@@ -1,0 +1,84 @@
+
+/* 
+	STYLE.CSS:
+	One stylesheet to rule them all.
+	
+	selector { property:value }
+	
+*/
+
+@import url(https://fonts.googleapis.com/css?family=Fredericka+the+Great|Lato);
+
+body {
+  margin: 0;
+  background-color: #eee;
+}
+
+header{
+  background-color: #444444;
+}
+
+h1,h2, footer { text-align: center;}
+
+/*
+bound the img in <div> in order to center
+*/
+
+div {
+  image-orientation: center
+}
+
+
+
+/* 
+centering <p> copying the website Jenny's website template 
+*/
+
+div {
+  width: 500px;
+  margin: auto;
+}
+
+/* Gave my ruler thickness and greater margin from top and bottom
+*/
+
+hr {
+  height: 2px;
+  background-color: #000000;
+  border: 2px solid black;
+      /* size style color */
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+a {
+   font-family: "times new roman", Ariel, "comic sans MS";
+}
+
+a:link    {color: #0a2472; }
+a:visited {color: #dd403a; }
+a:hover   {color: #f194b4; }
+a:active  {color: #697a21; }
+main > div > article > section p {
+  color: #493736;
+}
+
+/*
+giving it color and some orientation
+*/
+main > div {
+  border: 3px solid #668284;
+  padding: 10px;
+  background-color: #946645;
+  overflow: hidden;
+}
+
+
+footer, div, p {
+  color: #00000;
+  font-size: 20px;
+}
+
+main > div > article > section > footer > p {
+  font-size: 18px;
+}
