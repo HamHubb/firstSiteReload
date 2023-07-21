@@ -18,7 +18,7 @@ header{
   background-color: #444444;
 }
 
-h1,h2, footer { text-align: center;}
+h1,h2,h3,footer { text-align: center;}
 
 /*
 bound the img in <div> in order to center
@@ -77,10 +77,10 @@ footer, div, p {
   font-size: 20px;
 }
 
-main > div > article > section > footer > p {
+main > div > footer > p {
   font-size: 18px;
 }
 
-main > div > article > section > footer > p {
+main > div > footer > p {
   font-size: 18px;
 }
