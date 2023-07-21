@@ -1,33 +1,38 @@
 <!DOCTYPE html>
-<html>
+<html.en>
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width">
 <title>First Site</title>
 
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css"/>
 
-<link href="style.css" rel="stylesheet" type="text/css" />
-
-</head>
-
-<body>
-
- <header>
+<link href="style.css" rel="stylesheet" type="text/css"/>
+  </head>
+  <body>
+    <!--sets the header w/o using a footer as footers don't belong in headers-->
+    <header>
       <div>
         <h1>Hairo Morales</h1>
-         <footer>Software developer</footer>
+         <h3>Software developer</h3>
       </div>
     </header>
 
-<main>
-    <div>
-        <img src="images/Happy-Hairo.jpg" width="500"/> 
+    <!--set my image source in <div> to center it </div> -->
+    <main>
       <div>
-        <article>
-          <section>
+        <img class="fit-picture"
+          src="images/Happy-Hairo.jpg"
+          alt="Happy Hairo smiling"
+          width="500"/>
+      </div>
+      
+      <div> 
+        <!-- centers the text and limits width-->
+          <section> 
+            <!--divides the text similar to Jenny's website-->
             <header>
-              <h2>Hey! I'm Hairo Morales</h2>
+              <h2>Hey! I'm Hairo</h2>
             </header>
             <p>I am a software developer living in Los Angeles, California</p>
             <p>I love to play music but my interests include:</p>
@@ -36,33 +41,34 @@
                 <li>Cooking and learning to cook new dishes</li>
                 <li>Practicing coding and learning new techniques</li>
               </ul>
-            <footer>
-              <p>Take a look at my website and feel free to <a href="#Contact Hairo">Contact Me</a></p>
-            </footer>
+            <h3>
+              <p>Take a look at my website and feel free to <a href="#Contact-Hairo">Contact Me</a></p>
+            </h3>
           </section>
-          <hr>
+          <hr> <!-- adds a ruler, divider between sections-->
           <section>
             <header>
               <h2>About Hairo</h2>
             </header>
             <p>As a music teacher, I feel incredible pride when my students retain and demonstrate real progress in their instrument. Always impressed and amazed by children and their ability to learn. Inspired by my students, I've taken this new path of learning and hope to come through the otherside a full time developer.</p>
-            <p>As a stduent of <a href="http://thinkful.com">Thinkful</a>, I've begun my journey to becoming a software developer and couldn't be happier!</p>
-            <p>Once I'm done and completed this bootcamp I'll be a much more capable software developer ready to collaborate and work with anyone willing</p>
+            <p>As a student of <a href="http://thinkful.com">Thinkful</a>, I've begun my journey to becoming a software developer and couldn't be happier!</p>
+            <p>Once I'm done and completed this bootcamp I'll be a much more capable software developer ready to collaborate and work with anyone willing.</p>
             
           </section>
           <hr>
-          <section id="Contact Hairo">
+          <section id="Contact-Hairo">
+            <!--references this id in the first section to link here-->
             <header>
               <h2>Contact Hairo</h2>
             </header>
              <p>I'd love to hear from you! Please feel free to contact or follow me:</p>
-              <ol>
-                <li><a href="http://github.com/HamHubb">GitHub</a></li>
+              <ol> 
+                <!--listing contact links in an ordered list-->
+                <li><a href="http://github.com/HamHubb/">GitHub</a></li>
                 <li><a href="https://www.linkedin.com/in/hairo-morales-320387242/">Linkedin</a></li>
-		<li>I'm located in <a href="https://goo.gl/maps/LC7WDAjPrnaxfpTx9">Los Angeles, California</a></li>
+                <li>I'm located in <a href="https://goo.gl/maps/LC7WDAjPrnaxfpTx9">Los Angeles, California</a></li>
               </ol>
           </section>
-        </article>
       </div>
     </main>
 
@@ -72,7 +78,9 @@
       </div>
     </footer>
 
-</body>
+    <script src="script.js"></script>
+  </body>
 </html>
+
 
 
