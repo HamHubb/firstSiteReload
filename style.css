@@ -28,8 +28,6 @@ div {
   image-orientation: center
 }
 
-
-
 /* 
 centering <p> copying the website Jenny's website template 
 */
@@ -77,6 +75,10 @@ main > div {
 footer, div, p {
   color: #00000;
   font-size: 20px;
+}
+
+main > div > article > section > footer > p {
+  font-size: 18px;
 }
 
 main > div > article > section > footer > p {
